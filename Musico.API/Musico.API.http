@@ -1,0 +1,6 @@
+@Musico.API_HostAddress = http://localhost:5087
+
+GET {{Musico.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
