@@ -46,7 +46,6 @@ public static class HashHelper
         {
             buffer4 = bytes.GetBytes(0x20);
         }
-        // return ByteArraysEqual(buffer3, buffer4);
         return buffer3.SequenceEqual(buffer4);
     }
 }

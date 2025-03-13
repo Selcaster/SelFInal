@@ -1,6 +1,6 @@
 using Musico.BL.DTOs.UserDtos;
 
-namespace Musico.BL.Services.Interfaces;
+namespace Musico.BL.Services;
 
 public interface IAuthService
 {

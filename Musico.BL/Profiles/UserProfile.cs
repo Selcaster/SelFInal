@@ -4,7 +4,7 @@ using Musico.BL.DTOs.UserDtos;
 using Musico.BL.Helpers;
 using Musico.Core.Entities;
 
-namespace Musico.API.Mappings
+namespace Musico.BL.Profiles
 {
     public class UserProfile : Profile
     {

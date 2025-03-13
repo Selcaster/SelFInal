@@ -1,7 +1,7 @@
 using Musico.BL.DTOs.UserDtos;
 using Musico.Core.Entities;
 
-namespace Musico.BL.Services.Interfaces;
+namespace Musico.BL.Services;
 
 public interface IUserService
 {

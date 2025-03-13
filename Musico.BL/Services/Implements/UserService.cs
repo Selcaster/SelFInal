@@ -1,11 +1,10 @@
 using AutoMapper;
 using Musico.BL.DTOs.UserDtos;
 using Musico.BL.Exceptions.Common;
-using Musico.BL.Services.Interfaces;
 using Musico.Core.Entities;
 using Musico.Core.Repositories;
 
-namespace Musico.BL.Services.Implements;
+namespace Musico.BL.Services;
 
 public class UserService(IMapper _mapper,IUserRepository _repo):IUserService
 {

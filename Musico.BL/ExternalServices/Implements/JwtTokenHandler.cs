@@ -7,7 +7,6 @@ using Musico.BL.ExternalServices.Interfaces;
 using Musico.Core.Entities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Musico.Core.Entities;
 namespace Musico.BL.ExternalServices.Implements;
 
 public class JwtTokenHandler:IJwtTokenHandler
@@ -22,7 +21,7 @@ public class JwtTokenHandler:IJwtTokenHandler
         List<Claim> claims = [
             new Claim(ClaimType.Username, user.Username),
             new Claim(ClaimType.Email, user.Email),
-            new Claim(ClaimType.Role,user.Role.ToString()),
+            //new Claim(ClaimType.Roles,user.Role.ToString()),
             new Claim(ClaimType.Id,user.Id.ToString()),
         ];
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(opt.SecretKey));

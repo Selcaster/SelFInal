@@ -1,4 +1,4 @@
-namespace Musico.BL.Services.Interfaces;
+namespace Musico.BL.Services;
 
 public interface IEmailService
 {

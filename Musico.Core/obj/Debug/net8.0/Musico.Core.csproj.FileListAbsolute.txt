@@ -1,0 +1,12 @@
+C:\Users\acer\source\repos\Musico.Core\bin\Debug\net8.0\Musico.Core.deps.json
+C:\Users\acer\source\repos\Musico.Core\bin\Debug\net8.0\Musico.Core.dll
+C:\Users\acer\source\repos\Musico.Core\bin\Debug\net8.0\Musico.Core.pdb
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\Musico.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\Musico.Core.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\Musico.Core.AssemblyInfo.cs
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\Musico.Core.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\Musico.Core.sourcelink.json
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\Musico.Core.dll
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\refint\Musico.Core.dll
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\Musico.Core.pdb
+C:\Users\acer\source\repos\Musico.Core\obj\Debug\net8.0\ref\Musico.Core.dll

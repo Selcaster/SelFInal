@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Musico.BL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4226b7856abb5445bbf20d789b48b5be1c0e1b63")]
 [assembly: System.Reflection.AssemblyProductAttribute("Musico.BL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Musico.BL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

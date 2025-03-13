@@ -6,13 +6,12 @@ using Musico.BL.DTOs.UserDtos;
 using Musico.BL.Exceptions.Common;
 using Musico.BL.ExternalServices.Interfaces;
 using Musico.BL.Helpers;
-using Musico.BL.Services.Interfaces;
 using Musico.Core.Entities;
 using Musico.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Musico.BL.Services.Implements;
+namespace Musico.BL.Services;
 
 public class AuthService(IUserRepository _repo,IMapper _mapper,IJwtTokenHandler _tokenHandler):IAuthService
 {

@@ -17,4 +17,5 @@ public static class ServiceRegistration
         services.AddScoped<IAlbumRepository, AlbumRepository>();
         return services;
     }
+
 }

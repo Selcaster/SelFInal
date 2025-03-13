@@ -2,18 +2,14 @@ using System.Net;
 using System.Net.Mail;
 using System.Security.Claims;
 using Musico.BL.DTOs.Options;
-using Musico.BL.Exceptions.Common;
 using Musico.BL.ExternalServices.Interfaces;
-using Musico.BL.Services.Interfaces;
 using Musico.Core.Entities;
 using Musico.Core.Repositories;
-using Musico.DAL.Repositories;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 
-namespace Musico.BL.Services.Implements;
+namespace Musico.BL.Services;
 
 public class EmailService:IEmailService
 {
@@ -62,7 +58,7 @@ public class EmailService:IEmailService
         string? name = _httpContextAccessor.HttpContext?.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
         
         User? user = await _repo.GetByIdAsync(_user.GetId());
-        user!.Role = user!.Role | (int)Roles.Publisher;
+        //user!.Role = user!.Roles | (int)Roles.Publisher;
         await _repo.SaveAsync();
     }
 

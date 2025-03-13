@@ -2,7 +2,7 @@
 using Musico.BL.DTOs;
 using Musico.Core.Entities;
 
-namespace Musico.API.Mappings
+namespace Musico.BL.Profiles
 {
     public class SongProfile : Profile
     {

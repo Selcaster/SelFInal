@@ -6,4 +6,5 @@ public class User:BaseEntity
     public string PasswordHash { get; set; } = string.Empty;
     public List<LikedSong> LikedSongs { get; set; } = new();
     public List<Playlist> Playlists { get; set; } = new();
+    public Roles Role {  get; set; }
 }
